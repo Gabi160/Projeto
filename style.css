@@ -1,0 +1,158 @@
+
+.foto {
+    background-image: url('https://th.bing.com/th/id/R.b4c0f915ef8f520b42d293f70bd247ca?rik=qsCn%2fFABUY%2fVfw&riu=http%3a%2f%2f2.bp.blogspot.com%2f-DxCUwUasR0o%2fT7njacxXW8I%2fAAAAAAAAG1U%2fSso2gdv58IE%2fs1600%2fmar.jpg&ehk=LVeT2ge7UtFNbS%2fhugN7tNI%2fklHgURXylJevzxEqY0M%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover; /* Ajusta a imagem para cobrir o contêiner */
+    background-position: center; /* Centraliza a imagem no contêiner */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    height: 270px; /* Define a altura do contêiner (ajuste conforme necessário) */
+}
+
+
+#eduarda {
+    width: 200px; /* Defina a largura desejada */
+    height: 200px; /* Defina a altura desejada (mesma que a largura para quadrado) */
+    object-fit: cover; /* Faz a imagem preencher o contêiner sem distorção */
+    display: block; /* Remove o espaçamento abaixo da imagem */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: px;
+    border-color: white;
+    border-style: outset;
+}
+
+#nome {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    padding: 20px;
+    padding-top: 16px;
+}
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(107, 183, 242);
+}
+
+header {
+    background-color: #13159a;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+#projetos {
+    text-align: center;
+    background-color: #143dc4;
+    border-radius: 20px;
+    margin: auto;
+    justify-content: center; /* Alinha as imagens horizontalmente */
+    gap: 10px; /* Espaço entre as imagens */
+    
+    
+}
+
+
+.projeto {
+    margin-bottom: 2em;
+    width: 210px;
+    display: flex;
+    margin: px;
+    text-align: center;
+    gap: 70px;
+}
+
+.projeto img {
+    
+    width: 100%;
+    height: auto;
+
+}
+
+
+#projetos h2 {
+    font-size: 27px;
+}
+
+
+ #Hobbies{
+    text-align: center;
+    background-color: #143dc4;
+    border-radius: 20px;
+    margin: auto;
+    
+    justify-content: center; /* Alinha as imagens horizontalmente */
+    gap: 10px; /* Espaço entre as imagens */
+    
+    
+    margin-top: 50px;
+   
+ }
+
+ .Hobbie ul {
+
+    font-weight: bolder;
+    text-align-last: left;
+    font-size: 19px;
+    
+
+
+ }
+
+
+ .Hobbie li {
+    padding: 20px;
+ }
+  
+#familia {
+    background-color: #143dc4;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+ .familia{
+    
+    display: flex;
+    gap: 10px;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    }
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+            
